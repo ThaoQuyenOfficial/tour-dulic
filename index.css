@@ -1,0 +1,50 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+    /* [1.1] Set it as per your need */
+    overflow: hidden;
+    /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+    transform: scale(1.2);
+}
+
+h6 {
+    color: red;
+}
+
+.card-title-tour {
+    height: 3.5em;
+}
+
+.img-service {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.description-service {
+    height: 4.5em;
+}
+.imageChange {
+    max-width: 800px;
+    height: 400px;
+    }
+    /* Điều chỉnh kích thước của hình ảnh */
+image{
+    width: 50%;
+    height: 500px;
+  }
+  
